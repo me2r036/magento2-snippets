@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!--Core Plugins-->
+    <!--Sort options-->
+    <type name="Magento\Framework\Data\Collection">
+        <plugin name="sort_option" type="HPOLS\Core\Plugin\SortOption" sortOrder="100" disabled="false" />
+    </type>
+</config>
